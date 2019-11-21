@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
-
+/* CLASS TO WRITE NEW DATA TO SHARED PREFERENCES.*/
 public class Writer {
     public static void writeBookings(Context context , ArrayList<Bookings> bookings) {
         SharedPreferences pref = context.getSharedPreferences("MyPref", 0); // 0 - for private mode
