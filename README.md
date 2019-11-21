@@ -13,10 +13,10 @@ A simple Android Application for Hotel booking and Recommendations.
  4. Implement a basic UI with minimal functionality required.
  
  # Technology Stack : 
-  Android (AndroidX)
-  XML and Java
-  Libraries -> GSON , JackSon Faster XML , Adapters , 
-  XML Components -> Recycler Views , Card Views , Collapsing Toolbars.
+Android (AndroidX)
+XML and Java
+Libraries -> GSON , JackSon Faster XML , Adapters , 
+XML Components -> Recycler Views , Card Views , Collapsing Toolbars.
  
 # Application Flow
 1. User Login (Dummy Users Created)
