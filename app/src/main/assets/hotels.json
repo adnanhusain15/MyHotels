@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name":"Kamal Hotel",
+    "contact":"7744987886",
+    "location":"Nagpur , Maharastra",
+    "features":["Free wifi" , "Cabs available"],
+    "rating" : 5
+  },
+  {
+    "id": 2,
+    "name":"Baba Inn",
+    "contact":"4477876887",
+    "location":"Mumbai , Maharastra",
+    "features":["Free wifi" , "Free brunch"],
+    "rating" : 3
+  },
+  {
+    "id": 3,
+    "name":"Khaanji Hotel",
+    "contact":"8923674512",
+    "location":"Delhi NCR",
+    "features":["Honeymoon" , "Free brunch"],
+    "rating" : 3
+  },
+  {
+    "id": 4,
+    "name":"Gandhi Inn",
+    "contact":"08375924323",
+    "location":"Mumbai, Maharastra",
+    "features":["Free wifi" , "Beach View"],
+    "rating" : 4
+  },
+  {
+    "id": 5,
+    "name":"Taj Hotels",
+    "contact":"4477876887",
+    "location":"Kolkata",
+    "features":["Cabs Available" , "Free brunch"],
+    "rating" : 4
+  },
+  {
+    "id": 6,
+    "name":"Hotel Goa",
+    "contact":"4477876887",
+    "location":"Mumbai, Maharastra",
+    "features":["Beach View" , "Free brunch"],
+    "rating" : 3
+  },
+  {
+    "id": 7,
+    "name":"Darshan",
+    "contact":"8768468325",
+    "location":"Delhi NCR",
+    "features":["Near Airport" , "Honeymoon"],
+    "rating" : 5
+  },
+  {
+    "id": 8,
+    "name":"Laxmi Nivas",
+    "contact":"67979871340",
+    "location":"Kolkata",
+    "features":["Cabs Available" , "Free brunch"],
+    "rating" : 2
+  },
+  {
+    "id": 9,
+    "name":"Orange City",
+    "contact":"987868219",
+    "location":"Mumbai , Maharastra",
+    "features":["Ac Room" , "Free brunch"],
+    "rating" : 2
+  },{
+  "id": 10,
+  "name":"Legend Inn",
+  "contact":"9867523423",
+  "location":"Kolkata",
+  "features":["Ac Room" , "Cabs Available"],
+  "rating" : 4
+}
+
+]

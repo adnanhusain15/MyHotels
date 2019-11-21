@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/rec_card_view"
+    android:layout_width="175dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/card_margin"
+    android:elevation="3dp"
+    card_view:cardCornerRadius="@dimen/card_hotel_radius">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rec_thumbnail"
+            android:layout_width="175dp"
+            android:layout_height="@dimen/hotel_cover_height"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/rec_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec_thumbnail"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingTop="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:textColor="@color/hotel_title"
+            android:textSize="@dimen/hotel_title" />
+
+        <TextView
+            android:id="@+id/rec_location"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec_title"
+            android:textColor="@color/hotel_title"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:textSize="@dimen/location" />
+
+        <TextView
+            android:id="@+id/rec_rating"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hotel_title"
+
+            android:layout_below="@id/rec_location"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:textSize="@dimen/location" />
+
+        <TextView
+            android:id="@+id/rec_features"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hotel_title"
+
+            android:layout_below="@id/rec_rating"
+            android:paddingLeft="@dimen/hotel_title_padding"
+            android:paddingRight="@dimen/hotel_title_padding"
+            android:paddingBottom="@dimen/hotel_rating_padding_bottom"
+            android:textSize="@dimen/location"
+            card_view:fontFamily="sans-serif-black" />
+        <Button
+            android:id="@+id/rec_viewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rec_features"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round"
+            android:scaleType="centerCrop"
+            android:text="View"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:typeface="monospace"
+
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
