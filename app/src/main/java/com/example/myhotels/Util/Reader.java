@@ -10,7 +10,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+/* THIS CLASS PROVIDE METHODS FOR READING JSON FILES FROM ASSETS AS WELL AS FROM SHARED PREFERENCES 
+AND RETURNS LIST OF SUITABLE OBJECTS.*/
 public class Reader {
     public static String loadJSONFromAsset(Context context,String filename) {
         String json = null;
